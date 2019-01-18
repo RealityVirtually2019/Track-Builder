@@ -181,6 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1623d6eb8a23950428dc3c4773f5f4fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TrackPrefab: {fileID: 1354919873255290, guid: deeedffa4c0a973408accbc3225abb58,
+    type: 2}
 --- !u!114 &18591037 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114463424589709878, guid: 6884f69ad0adbb441905ff499f5d1ece,

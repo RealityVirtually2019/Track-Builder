@@ -167,10 +167,11 @@ namespace MagicLeap
             {
                 MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(value * 2.0f));
                 controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, intensity);
-
+                
 
                 Vector3 newPieceLocation = new Vector3(controller.Position.x, controller.Position.y, controller.Position.z);
                 Vector3 newPieceRotation = new Vector3(controller.Orientation.x, controller.Orientation.eulerAngles.y, controller.Orientation.eulerAngles.z);
+                Instantiate(TrackPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation));
             }
         }
         #endregion

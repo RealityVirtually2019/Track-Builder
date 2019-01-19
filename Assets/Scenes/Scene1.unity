@@ -175,6 +175,12 @@ Prefab:
       value: 
       objectReference: {fileID: 1124759113448334, guid: e57f6c6ea35a581478ea0d12f5d9b2e0,
         type: 2}
+    - target: {fileID: 114717853057984290, guid: 6884f69ad0adbb441905ff499f5d1ece,
+        type: 2}
+      propertyPath: SelectedPrefab
+      value: 
+      objectReference: {fileID: 1522422101278792, guid: fd594eabcad08744f8b8078e8a7515a3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6884f69ad0adbb441905ff499f5d1ece, type: 2}
   m_IsPrefabParent: 0
@@ -781,3 +787,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2033291888 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1463616170062846, guid: 6884f69ad0adbb441905ff499f5d1ece,
+    type: 2}
+  m_PrefabInternal: {fileID: 18591033}
+--- !u!65 &2033291889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2033291888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06, y: 0.09, z: 0.12}
+  m_Center: {x: 0, y: -0.03, z: -0.02}

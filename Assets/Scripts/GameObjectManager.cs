@@ -31,6 +31,10 @@ public class GameObjectManager : MonoBehaviour {
         float yRand = Random.Range(-.8f, .8f);
         float zRand = Random.Range(-.8f, .8f);
 
+        xRand *= boundaryController.boxColliderScale.x;
+        yRand *= boundaryController.boxColliderScale.y;
+        zRand *= boundaryController.boxColliderScale.z;
+
         randomPositionWithin = new Vector3(xRand, yRand, zRand);
         randomPositionWithin = boundary.transform.TransformPoint(randomPositionWithin * .5f);
 
@@ -53,8 +57,7 @@ public class GameObjectManager : MonoBehaviour {
             instantiateGameObject(goTest);
             if (!isMade)
             {
-                boundaryController.encapsulateStartEnd(new Vector3(2f, 2f, 1f), new Vector3(10f, 2f, 5f));
-                //new Vector3(10f, 2f, 5f)
+                boundaryController.encapsulateStartEnd(new Vector3(2f, 10f , 1f), new Vector3(10f, 2f, 5f));
             }
         }
 

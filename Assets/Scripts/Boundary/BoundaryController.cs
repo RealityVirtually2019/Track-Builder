@@ -11,6 +11,7 @@ public class BoundaryController : MonoBehaviour
     private float MINIMUM_HEIGHT_PRESET = 1f;
     private float minimumHeight = .2f;
     private float minimumWidth;
+    public Vector3 boxColliderScale = new Vector3();
 
     // Use this for initialization
     void Start()
@@ -39,11 +40,6 @@ public class BoundaryController : MonoBehaviour
 
     public void encapsulateStartEnd(Vector3 startPoint, Vector3 endPoint) {
         bool willTranslateForward = false;
-        //if (endPoint.z-startPoint.z > 0) {
-        //    willTranslateForward = true;
-        //} else {
-        //    willTranslateForward = false;
-        //}
 
         Vector3 vecBetween = endPoint - startPoint;
 
@@ -51,18 +47,18 @@ public class BoundaryController : MonoBehaviour
 
         float newYScale;
 
-        if (vecBetween.y < minimumHeight) {
+        if (Mathf.Abs(vecBetween.y) < minimumHeight) {
             newYScale = MINIMUM_HEIGHT_PRESET;
         } else {
             newYScale = Mathf.Abs(vecBetween.y * 1.2f);
         }
 
-        print(newYScale);
+        print(vecBetween.y);
 
         var tmp = new Vector2(vecBetween.x, vecBetween.z);
         float newZScale = Mathf.Abs(tmp.magnitude * 1.2f);
         
-        //transform.position = startPoint;
+        transform.position = startPoint;
 
         float angle1 = Mathf.Atan2(vecBetween.y, vecBetween.z) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle1, Vector3.right);
@@ -78,6 +74,7 @@ public class BoundaryController : MonoBehaviour
 
         print(midpoint);
         boxCollider.size = new Vector3(newXScale, newYScale, newZScale);
+        boxColliderScale = boxCollider.size;
         float newXPosition = boxCollider.transform.position.x;
         float newYPosition;
         float newZPosition;

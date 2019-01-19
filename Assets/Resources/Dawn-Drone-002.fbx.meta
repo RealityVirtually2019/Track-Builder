@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: c96aa162a47b2483ab23dcae4c6e59b5
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cam_plate_bottom
+    100002: cam_plate_top
+    100004: camera
+    100006: camera_plate
+    100008: coil
+    100010: coil 1
+    100012: coil 2
+    100014: coil 3
+    100016: coil1
+    100018: coil1 1
+    100020: coil1 2
+    100022: coil1 3
+    100024: coil2
+    100026: coil2 1
+    100028: coil2 2
+    100030: coil2 3
+    100032: coil3
+    100034: coil3 1
+    100036: coil3 2
+    100038: coil3 3
+    100040: coil4
+    100042: coil4 1
+    100044: coil4 2
+    100046: coil4 3
+    100048: coil5
+    100050: coil5 1
+    100052: coil5 2
+    100054: coil5 3
+    100056: coil6
+    100058: coil6 1
+    100060: coil6 2
+    100062: coil6 3
+    100064: coil7
+    100066: coil7 1
+    100068: coil7 2
+    100070: coil7 3
+    100072: coil8
+    100074: coil8 1
+    100076: coil8 2
+    100078: coil8 3
+    100080: coil9
+    100082: coil9 1
+    100084: coil9 2
+    100086: coil9 3
+    100088: coil_1
+    100090: coil_1 1
+    100092: coil_1 10
+    100094: coil_1 11
+    100096: coil_1 12
+    100098: coil_1 13
+    100100: coil_1 14
+    100102: coil_1 15
+    100104: coil_1 16
+    100106: coil_1 17
+    100108: coil_1 18
+    100110: coil_1 19
+    100112: coil_1 2
+    100114: coil_1 20
+    100116: coil_1 21
+    100118: coil_1 22
+    100120: coil_1 23
+    100122: coil_1 24
+    100124: coil_1 25
+    100126: coil_1 26
+    100128: coil_1 27
+    100130: coil_1 28
+    100132: coil_1 29
+    100134: coil_1 3
+    100136: coil_1 30
+    100138: coil_1 31
+    100140: coil_1 32
+    100142: coil_1 33
+    100144: coil_1 34
+    100146: coil_1 35
+    100148: coil_1 36
+    100150: coil_1 37
+    100152: coil_1 38
+    100154: coil_1 39
+    100156: coil_1 4
+    100158: coil_1 5
+    100160: coil_1 6
+    100162: coil_1 7
+    100164: coil_1 8
+    100166: coil_1 9
+    100168: coil_2
+    100170: coil_2 1
+    100172: coil_2 10
+    100174: coil_2 11
+    100176: coil_2 12
+    100178: coil_2 13
+    100180: coil_2 14
+    100182: coil_2 15
+    100184: coil_2 16
+    100186: coil_2 17
+    100188: coil_2 18
+    100190: coil_2 19
+    100192: coil_2 2
+    100194: coil_2 20
+    100196: coil_2 21
+    100198: coil_2 22
+    100200: coil_2 23
+    100202: coil_2 24
+    100204: coil_2 25
+    100206: coil_2 26
+    100208: coil_2 27
+    100210: coil_2 28
+    100212: coil_2 29
+    100214: coil_2 3
+    100216: coil_2 30
+    100218: coil_2 31
+    100220: coil_2 32
+    100222: coil_2 33
+    100224: coil_2 34
+    100226: coil_2 35
+    100228: coil_2 36
+    100230: coil_2 37
+    100232: coil_2 38
+    100234: coil_2 39
+    100236: coil_2 4
+    100238: coil_2 5
+    100240: coil_2 6
+    100242: coil_2 7
+    100244: coil_2 8
+    100246: coil_2 9
+    100248: coil_3
+    100250: coil_3 1
+    100252: coil_3 10
+    100254: coil_3 11
+    100256: coil_3 12
+    100258: coil_3 13
+    100260: coil_3 14
+    100262: coil_3 15
+    100264: coil_3 16
+    100266: coil_3 17
+    100268: coil_3 18
+    100270: coil_3 19
+    100272: coil_3 2
+    100274: coil_3 20
+    100276: coil_3 21
+    100278: coil_3 22
+    100280: coil_3 23
+    100282: coil_3 24
+    100284: coil_3 25
+    100286: coil_3 26
+    100288: coil_3 27
+    100290: coil_3 28
+    100292: coil_3 29
+    100294: coil_3 3
+    100296: coil_3 30
+    100298: coil_3 31
+    100300: coil_3 32
+    100302: coil_3 33
+    100304: coil_3 34
+    100306: coil_3 35
+    100308: coil_3 36
+    100310: coil_3 37
+    100312: coil_3 38
+    100314: coil_3 39
+    100316: coil_3 4
+    100318: coil_3 5
+    100320: coil_3 6
+    100322: coil_3 7
+    100324: coil_3 8
+    100326: coil_3 9
+    100328: coil_4
+    100330: coil_4 1
+    100332: coil_4 10
+    100334: coil_4 11
+    100336: coil_4 12
+    100338: coil_4 13
+    100340: coil_4 14
+    100342: coil_4 15
+    100344: coil_4 16
+    100346: coil_4 17
+    100348: coil_4 18
+    100350: coil_4 19
+    100352: coil_4 2
+    100354: coil_4 20
+    100356: coil_4 21
+    100358: coil_4 22
+    100360: coil_4 23
+    100362: coil_4 24
+    100364: coil_4 25
+    100366: coil_4 26
+    100368: coil_4 27
+    100370: coil_4 28
+    100372: coil_4 29
+    100374: coil_4 3
+    100376: coil_4 30
+    100378: coil_4 31
+    100380: coil_4 32
+    100382: coil_4 33
+    100384: coil_4 34
+    100386: coil_4 35
+    100388: coil_4 36
+    100390: coil_4 37
+    100392: coil_4 38
+    100394: coil_4 39
+    100396: coil_4 4
+    100398: coil_4 5
+    100400: coil_4 6
+    100402: coil_4 7
+    100404: coil_4 8
+    100406: coil_4 9
+    100408: coil_5
+    100410: coil_5 1
+    100412: coil_5 10
+    100414: coil_5 11
+    100416: coil_5 12
+    100418: coil_5 13
+    100420: coil_5 14
+    100422: coil_5 15
+    100424: coil_5 16
+    100426: coil_5 17
+    100428: coil_5 18
+    100430: coil_5 19
+    100432: coil_5 2
+    100434: coil_5 20
+    100436: coil_5 21
+    100438: coil_5 22
+    100440: coil_5 23
+    100442: coil_5 24
+    100444: coil_5 25
+    100446: coil_5 26
+    100448: coil_5 27
+    100450: coil_5 28
+    100452: coil_5 29
+    100454: coil_5 3
+    100456: coil_5 30
+    100458: coil_5 31
+    100460: coil_5 32
+    100462: coil_5 33
+    100464: coil_5 34
+    100466: coil_5 35
+    100468: coil_5 36
+    100470: coil_5 37
+    100472: coil_5 38
+    100474: coil_5 39
+    100476: coil_5 4
+    100478: coil_5 5
+    100480: coil_5 6
+    100482: coil_5 7
+    100484: coil_5 8
+    100486: coil_5 9
+    100488: coil_6
+    100490: coil_6 1
+    100492: coil_6 10
+    100494: coil_6 11
+    100496: coil_6 12
+    100498: coil_6 13
+    100500: coil_6 14
+    100502: coil_6 15
+    100504: coil_6 16
+    100506: coil_6 17
+    100508: coil_6 18
+    100510: coil_6 19
+    100512: coil_6 2
+    100514: coil_6 20
+    100516: coil_6 21
+    100518: coil_6 22
+    100520: coil_6 23
+    100522: coil_6 24
+    100524: coil_6 25
+    100526: coil_6 26
+    100528: coil_6 27
+    100530: coil_6 28
+    100532: coil_6 29
+    100534: coil_6 3
+    100536: coil_6 30
+    100538: coil_6 31
+    100540: coil_6 32
+    100542: coil_6 33
+    100544: coil_6 34
+    100546: coil_6 35
+    100548: coil_6 36
+    100550: coil_6 37
+    100552: coil_6 38
+    100554: coil_6 39
+    100556: coil_6 4
+    100558: coil_6 5
+    100560: coil_6 6
+    100562: coil_6 7
+    100564: coil_6 8
+    100566: coil_6 9
+    100568: coil_7
+    100570: coil_7 1
+    100572: coil_7 10
+    100574: coil_7 11
+    100576: coil_7 12
+    100578: coil_7 13
+    100580: coil_7 14
+    100582: coil_7 15
+    100584: coil_7 16
+    100586: coil_7 17
+    100588: coil_7 18
+    100590: coil_7 19
+    100592: coil_7 2
+    100594: coil_7 20
+    100596: coil_7 21
+    100598: coil_7 22
+    100600: coil_7 23
+    100602: coil_7 24
+    100604: coil_7 25
+    100606: coil_7 26
+    100608: coil_7 27
+    100610: coil_7 28
+    100612: coil_7 29
+    100614: coil_7 3
+    100616: coil_7 30
+    100618: coil_7 31
+    100620: coil_7 32
+    100622: coil_7 33
+    100624: coil_7 34
+    100626: coil_7 35
+    100628: coil_7 36
+    100630: coil_7 37
+    100632: coil_7 38
+    100634: coil_7 39
+    100636: coil_7 4
+    100638: coil_7 5
+    100640: coil_7 6
+    100642: coil_7 7
+    100644: coil_7 8
+    100646: coil_7 9
+    100648: //RootNode
+    100650: drone_bands
+    100652: drone_battery
+    100654: drone_battery_latch
+    100656: drone_bigflappyscrew_1
+    100658: drone_bigflappyscrew_2
+    100660: drone_body
+    100662: drone_bottombody
+    100664: drone_frontpiece
+    100666: drone_legs
+    100668: electronic_band
+    100670: extrudedSurface1
+    100672: extrudedSurface2
+    100674: extrudedSurface3
+    100676: extrudedSurface4
+    100678: extrudedSurface5
+    100680: extrudedSurface6
+    100682: extrudedSurface7
+    100684: leg_lf
+    100686: leg_lf_main
+    100688: leg_lf_pad_a
+    100690: leg_lf_pad_b
+    100692: leg_lf_wire_a
+    100694: leg_lf_wire_b
+    100696: leg_rt
+    100698: leg_rt_main
+    100700: leg_rt_pad_a
+    100702: leg_rt_pad_b
+    100704: leg_rt_wire_a
+    100706: leg_rt_wire_b
+    100708: motor
+    100710: motor1
+    100712: motor2
+    100714: motor3
+    100716: motor_base
+    100718: motor_base 1
+    100720: motor_base 2
+    100722: motor_base 3
+    100724: motor_inner
+    100726: motor_inner 1
+    100728: motor_inner 2
+    100730: motor_inner 3
+    100732: motor_top
+    100734: motor_top 1
+    100736: motor_top 2
+    100738: motor_top 3
+    100740: pCube10
+    100742: pCube7
+    100744: pCube8
+    100746: pCylinder1
+    100748: pCylinder2
+    100750: pCylinder3
+    100752: pCylinder4
+    100754: pCylinderShape3
+    100756: polySurface11
+    100758: polySurface11 1
+    100760: polySurface11 2
+    100762: polySurface11 3
+    100764: polySurface12
+    100766: polySurface12 1
+    100768: polySurface12 2
+    100770: polySurface12 3
+    100772: polySurface13
+    100774: polySurface14
+    100776: polySurface15
+    100778: propellor
+    100780: propellor 1
+    100782: propellor 2
+    100784: propellor 3
+    100786: pSphere1
+    100788: Screw
+    100790: Screw1
+    100792: shock_absorber1
+    100794: shock_absorber2
+    100796: shock_absorber3
+    100798: shock_absorber4
+    100800: shock_absorber:curve1
+    100802: shock_absorber:curve2
+    100804: shock_absorber:left
+    100806: shock_plastic_cap1
+    100808: shock_plastic_cap2
+    400000: cam_plate_bottom
+    400002: cam_plate_top
+    400004: camera
+    400006: camera_plate
+    400008: coil
+    400010: coil 1
+    400012: coil 2
+    400014: coil 3
+    400016: coil1
+    400018: coil1 1
+    400020: coil1 2
+    400022: coil1 3
+    400024: coil2
+    400026: coil2 1
+    400028: coil2 2
+    400030: coil2 3
+    400032: coil3
+    400034: coil3 1
+    400036: coil3 2
+    400038: coil3 3
+    400040: coil4
+    400042: coil4 1
+    400044: coil4 2
+    400046: coil4 3
+    400048: coil5
+    400050: coil5 1
+    400052: coil5 2
+    400054: coil5 3
+    400056: coil6
+    400058: coil6 1
+    400060: coil6 2
+    400062: coil6 3
+    400064: coil7
+    400066: coil7 1
+    400068: coil7 2
+    400070: coil7 3
+    400072: coil8
+    400074: coil8 1
+    400076: coil8 2
+    400078: coil8 3
+    400080: coil9
+    400082: coil9 1
+    400084: coil9 2
+    400086: coil9 3
+    400088: coil_1
+    400090: coil_1 1
+    400092: coil_1 10
+    400094: coil_1 11
+    400096: coil_1 12
+    400098: coil_1 13
+    400100: coil_1 14
+    400102: coil_1 15
+    400104: coil_1 16
+    400106: coil_1 17
+    400108: coil_1 18
+    400110: coil_1 19
+    400112: coil_1 2
+    400114: coil_1 20
+    400116: coil_1 21
+    400118: coil_1 22
+    400120: coil_1 23
+    400122: coil_1 24
+    400124: coil_1 25
+    400126: coil_1 26
+    400128: coil_1 27
+    400130: coil_1 28
+    400132: coil_1 29
+    400134: coil_1 3
+    400136: coil_1 30
+    400138: coil_1 31
+    400140: coil_1 32
+    400142: coil_1 33
+    400144: coil_1 34
+    400146: coil_1 35
+    400148: coil_1 36
+    400150: coil_1 37
+    400152: coil_1 38
+    400154: coil_1 39
+    400156: coil_1 4
+    400158: coil_1 5
+    400160: coil_1 6
+    400162: coil_1 7
+    400164: coil_1 8
+    400166: coil_1 9
+    400168: coil_2
+    400170: coil_2 1
+    400172: coil_2 10
+    400174: coil_2 11
+    400176: coil_2 12
+    400178: coil_2 13
+    400180: coil_2 14
+    400182: coil_2 15
+    400184: coil_2 16
+    400186: coil_2 17
+    400188: coil_2 18
+    400190: coil_2 19
+    400192: coil_2 2
+    400194: coil_2 20
+    400196: coil_2 21
+    400198: coil_2 22
+    400200: coil_2 23
+    400202: coil_2 24
+    400204: coil_2 25
+    400206: coil_2 26
+    400208: coil_2 27
+    400210: coil_2 28
+    400212: coil_2 29
+    400214: coil_2 3
+    400216: coil_2 30
+    400218: coil_2 31
+    400220: coil_2 32
+    400222: coil_2 33
+    400224: coil_2 34
+    400226: coil_2 35
+    400228: coil_2 36
+    400230: coil_2 37
+    400232: coil_2 38
+    400234: coil_2 39
+    400236: coil_2 4
+    400238: coil_2 5
+    400240: coil_2 6
+    400242: coil_2 7
+    400244: coil_2 8
+    400246: coil_2 9
+    400248: coil_3
+    400250: coil_3 1
+    400252: coil_3 10
+    400254: coil_3 11
+    400256: coil_3 12
+    400258: coil_3 13
+    400260: coil_3 14
+    400262: coil_3 15
+    400264: coil_3 16
+    400266: coil_3 17
+    400268: coil_3 18
+    400270: coil_3 19
+    400272: coil_3 2
+    400274: coil_3 20
+    400276: coil_3 21
+    400278: coil_3 22
+    400280: coil_3 23
+    400282: coil_3 24
+    400284: coil_3 25
+    400286: coil_3 26
+    400288: coil_3 27
+    400290: coil_3 28
+    400292: coil_3 29
+    400294: coil_3 3
+    400296: coil_3 30
+    400298: coil_3 31
+    400300: coil_3 32
+    400302: coil_3 33
+    400304: coil_3 34
+    400306: coil_3 35
+    400308: coil_3 36
+    400310: coil_3 37
+    400312: coil_3 38
+    400314: coil_3 39
+    400316: coil_3 4
+    400318: coil_3 5
+    400320: coil_3 6
+    400322: coil_3 7
+    400324: coil_3 8
+    400326: coil_3 9
+    400328: coil_4
+    400330: coil_4 1
+    400332: coil_4 10
+    400334: coil_4 11
+    400336: coil_4 12
+    400338: coil_4 13
+    400340: coil_4 14
+    400342: coil_4 15
+    400344: coil_4 16
+    400346: coil_4 17
+    400348: coil_4 18
+    400350: coil_4 19
+    400352: coil_4 2
+    400354: coil_4 20
+    400356: coil_4 21
+    400358: coil_4 22
+    400360: coil_4 23
+    400362: coil_4 24
+    400364: coil_4 25
+    400366: coil_4 26
+    400368: coil_4 27
+    400370: coil_4 28
+    400372: coil_4 29
+    400374: coil_4 3
+    400376: coil_4 30
+    400378: coil_4 31
+    400380: coil_4 32
+    400382: coil_4 33
+    400384: coil_4 34
+    400386: coil_4 35
+    400388: coil_4 36
+    400390: coil_4 37
+    400392: coil_4 38
+    400394: coil_4 39
+    400396: coil_4 4
+    400398: coil_4 5
+    400400: coil_4 6
+    400402: coil_4 7
+    400404: coil_4 8
+    400406: coil_4 9
+    400408: coil_5
+    400410: coil_5 1
+    400412: coil_5 10
+    400414: coil_5 11
+    400416: coil_5 12
+    400418: coil_5 13
+    400420: coil_5 14
+    400422: coil_5 15
+    400424: coil_5 16
+    400426: coil_5 17
+    400428: coil_5 18
+    400430: coil_5 19
+    400432: coil_5 2
+    400434: coil_5 20
+    400436: coil_5 21
+    400438: coil_5 22
+    400440: coil_5 23
+    400442: coil_5 24
+    400444: coil_5 25
+    400446: coil_5 26
+    400448: coil_5 27
+    400450: coil_5 28
+    400452: coil_5 29
+    400454: coil_5 3
+    400456: coil_5 30
+    400458: coil_5 31
+    400460: coil_5 32
+    400462: coil_5 33
+    400464: coil_5 34
+    400466: coil_5 35
+    400468: coil_5 36
+    400470: coil_5 37
+    400472: coil_5 38
+    400474: coil_5 39
+    400476: coil_5 4
+    400478: coil_5 5
+    400480: coil_5 6
+    400482: coil_5 7
+    400484: coil_5 8
+    400486: coil_5 9
+    400488: coil_6
+    400490: coil_6 1
+    400492: coil_6 10
+    400494: coil_6 11
+    400496: coil_6 12
+    400498: coil_6 13
+    400500: coil_6 14
+    400502: coil_6 15
+    400504: coil_6 16
+    400506: coil_6 17
+    400508: coil_6 18
+    400510: coil_6 19
+    400512: coil_6 2
+    400514: coil_6 20
+    400516: coil_6 21
+    400518: coil_6 22
+    400520: coil_6 23
+    400522: coil_6 24
+    400524: coil_6 25
+    400526: coil_6 26
+    400528: coil_6 27
+    400530: coil_6 28
+    400532: coil_6 29
+    400534: coil_6 3
+    400536: coil_6 30
+    400538: coil_6 31
+    400540: coil_6 32
+    400542: coil_6 33
+    400544: coil_6 34
+    400546: coil_6 35
+    400548: coil_6 36
+    400550: coil_6 37
+    400552: coil_6 38
+    400554: coil_6 39
+    400556: coil_6 4
+    400558: coil_6 5
+    400560: coil_6 6
+    400562: coil_6 7
+    400564: coil_6 8
+    400566: coil_6 9
+    400568: coil_7
+    400570: coil_7 1
+    400572: coil_7 10
+    400574: coil_7 11
+    400576: coil_7 12
+    400578: coil_7 13
+    400580: coil_7 14
+    400582: coil_7 15
+    400584: coil_7 16
+    400586: coil_7 17
+    400588: coil_7 18
+    400590: coil_7 19
+    400592: coil_7 2
+    400594: coil_7 20
+    400596: coil_7 21
+    400598: coil_7 22
+    400600: coil_7 23
+    400602: coil_7 24
+    400604: coil_7 25
+    400606: coil_7 26
+    400608: coil_7 27
+    400610: coil_7 28
+    400612: coil_7 29
+    400614: coil_7 3
+    400616: coil_7 30
+    400618: coil_7 31
+    400620: coil_7 32
+    400622: coil_7 33
+    400624: coil_7 34
+    400626: coil_7 35
+    400628: coil_7 36
+    400630: coil_7 37
+    400632: coil_7 38
+    400634: coil_7 39
+    400636: coil_7 4
+    400638: coil_7 5
+    400640: coil_7 6
+    400642: coil_7 7
+    400644: coil_7 8
+    400646: coil_7 9
+    400648: //RootNode
+    400650: drone_bands
+    400652: drone_battery
+    400654: drone_battery_latch
+    400656: drone_bigflappyscrew_1
+    400658: drone_bigflappyscrew_2
+    400660: drone_body
+    400662: drone_bottombody
+    400664: drone_frontpiece
+    400666: drone_legs
+    400668: electronic_band
+    400670: extrudedSurface1
+    400672: extrudedSurface2
+    400674: extrudedSurface3
+    400676: extrudedSurface4
+    400678: extrudedSurface5
+    400680: extrudedSurface6
+    400682: extrudedSurface7
+    400684: leg_lf
+    400686: leg_lf_main
+    400688: leg_lf_pad_a
+    400690: leg_lf_pad_b
+    400692: leg_lf_wire_a
+    400694: leg_lf_wire_b
+    400696: leg_rt
+    400698: leg_rt_main
+    400700: leg_rt_pad_a
+    400702: leg_rt_pad_b
+    400704: leg_rt_wire_a
+    400706: leg_rt_wire_b
+    400708: motor
+    400710: motor1
+    400712: motor2
+    400714: motor3
+    400716: motor_base
+    400718: motor_base 1
+    400720: motor_base 2
+    400722: motor_base 3
+    400724: motor_inner
+    400726: motor_inner 1
+    400728: motor_inner 2
+    400730: motor_inner 3
+    400732: motor_top
+    400734: motor_top 1
+    400736: motor_top 2
+    400738: motor_top 3
+    400740: pCube10
+    400742: pCube7
+    400744: pCube8
+    400746: pCylinder1
+    400748: pCylinder2
+    400750: pCylinder3
+    400752: pCylinder4
+    400754: pCylinderShape3
+    400756: polySurface11
+    400758: polySurface11 1
+    400760: polySurface11 2
+    400762: polySurface11 3
+    400764: polySurface12
+    400766: polySurface12 1
+    400768: polySurface12 2
+    400770: polySurface12 3
+    400772: polySurface13
+    400774: polySurface14
+    400776: polySurface15
+    400778: propellor
+    400780: propellor 1
+    400782: propellor 2
+    400784: propellor 3
+    400786: pSphere1
+    400788: Screw
+    400790: Screw1
+    400792: shock_absorber1
+    400794: shock_absorber2
+    400796: shock_absorber3
+    400798: shock_absorber4
+    400800: shock_absorber:curve1
+    400802: shock_absorber:curve2
+    400804: shock_absorber:left
+    400806: shock_plastic_cap1
+    400808: shock_plastic_cap2
+    2000000: shock_absorber:left
+    2100000: ai_whitePlastic
+    2100002: ai_Metal
+    2100004: lambert1
+    2100006: ai_Glass
+    2100008: ai_greyPlastic
+    2300000: cam_plate_bottom
+    2300002: cam_plate_top
+    2300004: coil_7
+    2300006: coil_7 1
+    2300008: coil_7 10
+    2300010: coil_7 11
+    2300012: coil_7 12
+    2300014: coil_7 13
+    2300016: coil_7 14
+    2300018: coil_7 15
+    2300020: coil_7 16
+    2300022: coil_7 17
+    2300024: coil_7 18
+    2300026: coil_7 19
+    2300028: coil_7 2
+    2300030: coil_7 20
+    2300032: coil_7 21
+    2300034: coil_7 22
+    2300036: coil_7 23
+    2300038: coil_7 24
+    2300040: coil_7 25
+    2300042: coil_7 26
+    2300044: coil_7 27
+    2300046: coil_7 28
+    2300048: coil_7 29
+    2300050: coil_7 3
+    2300052: coil_7 30
+    2300054: coil_7 31
+    2300056: coil_7 32
+    2300058: coil_7 33
+    2300060: coil_7 34
+    2300062: coil_7 35
+    2300064: coil_7 36
+    2300066: coil_7 37
+    2300068: coil_7 38
+    2300070: coil_7 39
+    2300072: coil_7 4
+    2300074: coil_7 5
+    2300076: coil_7 6
+    2300078: coil_7 7
+    2300080: coil_7 8
+    2300082: coil_7 9
+    2300084: drone_bands
+    2300086: drone_battery
+    2300088: drone_battery_latch
+    2300090: drone_bigflappyscrew_1
+    2300092: drone_bigflappyscrew_2
+    2300094: drone_body
+    2300096: drone_bottombody
+    2300098: drone_frontpiece
+    2300100: leg_lf_main
+    2300102: leg_lf_pad_a
+    2300104: leg_lf_pad_b
+    2300106: leg_rt_main
+    2300108: leg_rt_pad_a
+    2300110: leg_rt_pad_b
+    2300112: motor_base
+    2300114: motor_base 1
+    2300116: motor_base 2
+    2300118: motor_base 3
+    2300120: motor_inner
+    2300122: motor_inner 1
+    2300124: motor_inner 2
+    2300126: motor_inner 3
+    2300128: motor_top
+    2300130: motor_top 1
+    2300132: motor_top 2
+    2300134: motor_top 3
+    2300136: pCube10
+    2300138: pCube7
+    2300140: pCube8
+    2300142: pCylinder1
+    2300144: pCylinder2
+    2300146: pCylinder3
+    2300148: pCylinder4
+    2300150: pCylinderShape3
+    2300152: polySurface11
+    2300154: polySurface11 1
+    2300156: polySurface11 2
+    2300158: polySurface11 3
+    2300160: polySurface12
+    2300162: polySurface12 1
+    2300164: polySurface12 2
+    2300166: polySurface12 3
+    2300168: polySurface13
+    2300170: polySurface14
+    2300172: polySurface15
+    2300174: pSphere1
+    2300176: Screw
+    2300178: Screw1
+    2300180: shock_plastic_cap1
+    2300182: shock_plastic_cap2
+    3300000: cam_plate_bottom
+    3300002: cam_plate_top
+    3300004: coil_7
+    3300006: coil_7 1
+    3300008: coil_7 10
+    3300010: coil_7 11
+    3300012: coil_7 12
+    3300014: coil_7 13
+    3300016: coil_7 14
+    3300018: coil_7 15
+    3300020: coil_7 16
+    3300022: coil_7 17
+    3300024: coil_7 18
+    3300026: coil_7 19
+    3300028: coil_7 2
+    3300030: coil_7 20
+    3300032: coil_7 21
+    3300034: coil_7 22
+    3300036: coil_7 23
+    3300038: coil_7 24
+    3300040: coil_7 25
+    3300042: coil_7 26
+    3300044: coil_7 27
+    3300046: coil_7 28
+    3300048: coil_7 29
+    3300050: coil_7 3
+    3300052: coil_7 30
+    3300054: coil_7 31
+    3300056: coil_7 32
+    3300058: coil_7 33
+    3300060: coil_7 34
+    3300062: coil_7 35
+    3300064: coil_7 36
+    3300066: coil_7 37
+    3300068: coil_7 38
+    3300070: coil_7 39
+    3300072: coil_7 4
+    3300074: coil_7 5
+    3300076: coil_7 6
+    3300078: coil_7 7
+    3300080: coil_7 8
+    3300082: coil_7 9
+    3300084: drone_bands
+    3300086: drone_battery
+    3300088: drone_battery_latch
+    3300090: drone_bigflappyscrew_1
+    3300092: drone_bigflappyscrew_2
+    3300094: drone_body
+    3300096: drone_bottombody
+    3300098: drone_frontpiece
+    3300100: leg_lf_main
+    3300102: leg_lf_pad_a
+    3300104: leg_lf_pad_b
+    3300106: leg_rt_main
+    3300108: leg_rt_pad_a
+    3300110: leg_rt_pad_b
+    3300112: motor_base
+    3300114: motor_base 1
+    3300116: motor_base 2
+    3300118: motor_base 3
+    3300120: motor_inner
+    3300122: motor_inner 1
+    3300124: motor_inner 2
+    3300126: motor_inner 3
+    3300128: motor_top
+    3300130: motor_top 1
+    3300132: motor_top 2
+    3300134: motor_top 3
+    3300136: pCube10
+    3300138: pCube7
+    3300140: pCube8
+    3300142: pCylinder1
+    3300144: pCylinder2
+    3300146: pCylinder3
+    3300148: pCylinder4
+    3300150: pCylinderShape3
+    3300152: polySurface11
+    3300154: polySurface11 1
+    3300156: polySurface11 2
+    3300158: polySurface11 3
+    3300160: polySurface12
+    3300162: polySurface12 1
+    3300164: polySurface12 2
+    3300166: polySurface12 3
+    3300168: polySurface13
+    3300170: polySurface14
+    3300172: polySurface15
+    3300174: pSphere1
+    3300176: Screw
+    3300178: Screw1
+    3300180: shock_plastic_cap1
+    3300182: shock_plastic_cap2
+    4300000: drone_body
+    4300002: drone_frontpiece
+    4300004: drone_battery
+    4300006: drone_battery_latch
+    4300008: drone_bands
+    4300010: coil_7
+    4300012: coil_7
+    4300014: coil_7
+    4300016: coil_7
+    4300018: coil_7
+    4300020: coil_7
+    4300022: coil_7
+    4300024: coil_7
+    4300026: coil_7
+    4300028: coil_7
+    4300030: motor_inner
+    4300032: motor_top
+    4300034: motor_base
+    4300036: polySurface11
+    4300038: polySurface12
+    4300040: coil_7
+    4300042: coil_7
+    4300044: coil_7
+    4300046: coil_7
+    4300048: coil_7
+    4300050: coil_7
+    4300052: coil_7
+    4300054: coil_7
+    4300056: coil_7
+    4300058: coil_7
+    4300060: motor_inner
+    4300062: motor_top
+    4300064: motor_base
+    4300066: polySurface11
+    4300068: polySurface12
+    4300070: coil_7
+    4300072: coil_7
+    4300074: coil_7
+    4300076: coil_7
+    4300078: coil_7
+    4300080: coil_7
+    4300082: coil_7
+    4300084: coil_7
+    4300086: coil_7
+    4300088: coil_7
+    4300090: motor_inner
+    4300092: motor_top
+    4300094: motor_base
+    4300096: polySurface11
+    4300098: polySurface12
+    4300100: coil_7
+    4300102: coil_7
+    4300104: coil_7
+    4300106: coil_7
+    4300108: coil_7
+    4300110: coil_7
+    4300112: coil_7
+    4300114: coil_7
+    4300116: coil_7
+    4300118: coil_7
+    4300120: motor_inner
+    4300122: motor_top
+    4300124: motor_base
+    4300126: polySurface11
+    4300128: polySurface12
+    4300130: drone_bottombody
+    4300132: drone_bigflappyscrew_1
+    4300134: drone_bigflappyscrew_2
+    4300136: Screw
+    4300138: Screw1
+    4300140: cam_plate_top
+    4300142: cam_plate_bottom
+    4300144: shock_plastic_cap1
+    4300146: shock_plastic_cap2
+    4300148: pCube7
+    4300150: pCube8
+    4300152: pCube10
+    4300154: pCylinder1
+    4300156: pCylinder3
+    4300158: pCylinder2
+    4300160: pCylinderShape3
+    4300162: polySurface13
+    4300164: pCylinder4
+    4300166: pSphere1
+    4300168: polySurface15
+    4300170: polySurface14
+    4300172: leg_lf_pad_a
+    4300174: leg_lf_pad_b
+    4300176: leg_lf_main
+    4300178: leg_rt_pad_a
+    4300180: leg_rt_pad_b
+    4300182: leg_rt_main
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

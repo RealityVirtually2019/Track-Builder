@@ -1,0 +1,15 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="bf68c3f9-073c-4ac6-80b9-fab554962e77" ml:package="com.company.productname" ml:version_code="1" ml:version_name="">
+  <application ml:min_api_level="3" ml:sdk_version="1.0" ml:visible_name="Track Builder">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="CameraCapture" />
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
+    <uses-privilege ml:name="IdentityRead" />
+    <uses-privilege ml:name="PwFoundObjRead" />
+    <uses-privilege ml:name="WorldReconstruction" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Track Builder">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>

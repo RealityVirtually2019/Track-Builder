@@ -42,6 +42,7 @@ namespace MagicLeap
         public bool Started = false;
         public TextMesh InfoText;
         public Vector3 ControllerLocation, ControllerRotation;
+        public GameObject BoundaryObject;
 
         
         #endregion
@@ -219,15 +220,18 @@ namespace MagicLeap
 
                 if(!Started)
                 {
+                    ballInstance.constraints = RigidbodyConstraints.None;
                     Started = true;
                     ballInstance.GetComponent<Rigidbody>().useGravity = true;
                     InfoText.text = "Press Bumper to restart";
                 }
                 else
                 {
+                    ballInstance.constraints = RigidbodyConstraints.FreezeAll;
                     InfoText.text = "Place your track down, and press the bumper to start.";
-                    ballInstance.GetComponent<Rigidbody>().useGravity = true;
-                    ballInstance.position = StartPoint;
+                    ballInstance.GetComponent<Rigidbody>().useGravity = false;
+                    ballInstance.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                    ballInstance.transform.position = StartPoint;
                     Started = false;
                 }
                 
@@ -257,6 +261,7 @@ namespace MagicLeap
                 {
                     StartPoint = newPieceLocation;
                     ballInstance = Instantiate(Ball, newPieceLocation, Quaternion.identity);
+                    ballInstance.constraints = RigidbodyConstraints.FreezeAll;
                     StartPlaced = true;
                     InfoText.text = "Set end point";
                 }
@@ -265,8 +270,10 @@ namespace MagicLeap
                     EndPoint = newPieceLocation;
                     Instantiate(EndModel, newPieceLocation, Quaternion.identity);
                     EndPlaced = true;
+                    
                     InfoText.text = "Place your track down, and press the bumper to start.";
                     isReadyToStart = true;
+                    BoundaryObject.GetComponent<BoundaryController>().encapsulateStartEnd(StartPoint, EndPoint);
                 }
                 else if(!Started && !touchingObject)
                 {
@@ -279,10 +286,11 @@ namespace MagicLeap
 
             }
         }
+        
         /*private void OnTriggerEnter(Collider other)
         {
             MLInputController controller = _controllerConnectionHandler.ConnectedController;
-            if(other != ghostObject)
+            if(other != ghostObject && EndPlaced) // REMEMBER GIANT COLLIDER THAT IT IS INSIDE OF
             {
                 touchingObject = true;
             }

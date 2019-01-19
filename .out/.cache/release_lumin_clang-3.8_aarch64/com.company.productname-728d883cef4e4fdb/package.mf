@@ -1,0 +1,296 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "d54fe6764f851fab2b52e6eb284e1fada063387e",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "3b01a822521f711a61f308030f2ddf75348fc2ca",
+   "pkgpath": "Data/11f6907d8a36142499cc0757c2dfe41f",
+   "size": 87736,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/11f6907d8a36142499cc0757c2dfe41f"
+  },
+  {
+   "compression": 8,
+   "hash": "5a73b8d0ceefde343c8d33cd908147b862eb2bff",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2787680,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "e9bf854e1ff75ae462b130fdaf29259dfced166e",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 34022608,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "12d6c2ee61d15b77df64e8e8489a93ece61c71fa",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\libil2cpp.so-8d566d35471cd15e",
+   "xfrm_size": 34023366
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "fdc54e18f3aab635d48b16438397743ebc26a4df",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\AudioPluginMSASpatializer.so-2adad4570219b1af",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "237c723c50327fc2415068ef554f41b5d20edf6b",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\UnityMagicLeap.so-2adad4570219b1af",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a75126148dfe0cb487be2118de39d8e38b7dd85f",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\libml_camera_plugin.so-2adad4570219b1af",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "dcbe3489f5a3c318e3122bbb6ce7420c849844d9",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\libml_mediaplayer_plugin.so-2adad4570219b1af",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "1c281a7abd7f0cec77eb390c3aa4d795a656335e",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 393452,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
+   "pkgpath": "Data/boot.config",
+   "size": 76,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "fd9fa6553c22180d72232bcee5bf683ac2433505",
+   "pkgpath": "Data/c96aa162a47b2483ab23dcae4c6e59b5",
+   "size": 2510656,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/c96aa162a47b2483ab23dcae4c6e59b5"
+  },
+  {
+   "compression": 8,
+   "hash": "cfdc42c6f956be5df68809f06d0b1a0e7f7fb808",
+   "pkgpath": "Data/d29259c22ebfb48cb96d724792707c18",
+   "size": 4452,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/d29259c22ebfb48cb96d724792707c18"
+  },
+  {
+   "compression": 8,
+   "hash": "c1dd1ed4a002d24c7410cd1e69b2c8f5ea6ce876",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 123524,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "1054c07f6f247ec5f08bb560af8a6f3e09bcf011",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 36864,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "21531ddf7e5f9d69e428eecbef87356ac2dd69da",
+   "pkgpath": "Data/level0",
+   "size": 16680,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "571eb12d7aa87ae03ccce926de7eeb72c32917fb",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "e90c2d9685591107686dcbd58fe67fe990b17fbb",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1283872,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "dccd0311f0bc12c61c7e475124206a41f172e925",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 544288,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8f59c553fa65e4c62b244f94275fdf50ef6a40e8",
+   "pkgpath": "bin/Player.elf",
+   "size": 22318968,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "0eb0ea9e9bed827890f8ec4559e6cb4d13d8cf0a",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\Player.elf-341333bae47b8c69",
+   "xfrm_size": 22319726
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/rsilv/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "7913402d10d1dcb8cdc2d951c4552a592510d29d",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\libc++_shared.so-3a86179863d3fac4",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "a16190608a4c4324eb5abf3aad73319c88344f00",
+   "pkgpath": "manifest.xml",
+   "size": 892,
+   "src": "C:\\Users\\rsilv\\Documents\\UnityBootcamp\\Track Builder\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "cee9306a5d552239a89f938c89986d9c7efdac06",
+     "developer_id": "bf68c3f9-073c-4ac6-80b9-fab554962e77"
+    }
+   },
+   "xfrm_hash": "d87a1a45b14f55067c43138478f6c0ef370e41d7",
+   "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\manifest.xml-341333bae47b8c69",
+   "xfrm_size": 904
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert"
+  },
+  "taildata": {
+   "devcert": "C:\\Users\\rsilv\\Desktop\\MagicLeapCertificates\\devcert1.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

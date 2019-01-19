@@ -27,9 +27,21 @@ namespace MagicLeap
         private ControllerConnectionHandler _controllerConnectionHandler;
 
         private int _lastLEDindex = -1;
+        [SerializeField] private bool isReadyToStart = false;
+        private Rigidbody ballInstance;
+        
         #endregion
         #region Public Variables
         public GameObject TrackPrefab;
+        public Rigidbody Ball;
+        public GameObject EndModel;
+        public Vector3 StartPoint;
+        public Vector3 EndPoint;
+        public bool StartPlaced;
+        public bool EndPlaced;
+        public bool Started = false;
+        public TextMesh InfoText;
+        
         #endregion
         #region Const Variables
         private const float TRIGGER_DOWN_MIN_VALUE = 0.2f;
@@ -41,6 +53,8 @@ namespace MagicLeap
         private const int MIN_LED_INDEX = (int)(MLInputControllerFeedbackPatternLED.Clock12);
         private const int MAX_LED_INDEX = (int)(MLInputControllerFeedbackPatternLED.Clock6And12);
         private const int LED_INDEX_DELTA = MAX_LED_INDEX - MIN_LED_INDEX;
+
+        private MLInputController controller;
         #endregion
 
         #region Unity Methods
@@ -49,11 +63,14 @@ namespace MagicLeap
         /// </summary>
         void Start()
         {
+
             _controllerConnectionHandler = GetComponent<ControllerConnectionHandler>();
+            controller = _controllerConnectionHandler.ConnectedController;
 
             MLInput.OnControllerButtonUp += HandleOnButtonUp;
             MLInput.OnControllerButtonDown += HandleOnButtonDown;
             MLInput.OnTriggerDown += HandleOnTriggerDown;
+
         }
 
         /// <summary>
@@ -62,6 +79,22 @@ namespace MagicLeap
         void Update()
         {
             UpdateLED();
+            /*if(controller.TriggerValue >= TRIGGER_DOWN_MIN_VALUE)
+            {
+                Vector3 newPieceLocation = new Vector3(controller.Position.x, controller.Position.y, controller.Position.z);
+                Vector3 newPieceRotation = new Vector3(controller.Orientation.x, controller.Orientation.eulerAngles.y, controller.Orientation.eulerAngles.z);
+                Instantiate(TrackPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation));
+                if ((controller.Position.x > (newPieceLocation.x + (newPieceLocation.x / 2))) || (controller.Position.x < (newPieceLocation.x + (newPieceLocation.x / 2))))
+                {
+                    newPieceLocation.x *= 2;
+                    Instantiate(TrackPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation));
+                }
+            }*/
+           /* if(Started)
+            {
+                Ball.GetComponent<Rigidbody>().useGravity = true;
+            }*/
+
         }
 
         /// <summary>
@@ -128,7 +161,7 @@ namespace MagicLeap
         /// <param name="button">The button that is being pressed.</param>
         private void HandleOnButtonDown(byte controllerId, MLInputControllerButton button)
         {
-            MLInputController controller = _controllerConnectionHandler.ConnectedController;
+
             if (controller != null && controller.Id == controllerId &&
                 button == MLInputControllerButton.Bumper)
             {
@@ -136,6 +169,10 @@ namespace MagicLeap
                 controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.ForceDown, MLInputControllerFeedbackIntensity.Medium);
                 // Toggle UseCFUIDTransforms
                 controller.UseCFUIDTransforms = !controller.UseCFUIDTransforms;
+                /*if ((isReadyToStart))
+                {*/
+                   
+                //}
             }
         }
 
@@ -152,6 +189,9 @@ namespace MagicLeap
             {
                 // Demonstrate haptics using callbacks.
                 controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.ForceUp, MLInputControllerFeedbackIntensity.Medium);
+                Started = true;
+                ballInstance.GetComponent<Rigidbody>().useGravity = true;
+                InfoText.text = "Press Trigger to restart";
             }
         }
 
@@ -165,13 +205,42 @@ namespace MagicLeap
             MLInputController controller = _controllerConnectionHandler.ConnectedController;
             if (controller != null && controller.Id == controllerId)
             {
+
                 MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(value * 2.0f));
                 controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, intensity);
-                
-
                 Vector3 newPieceLocation = new Vector3(controller.Position.x, controller.Position.y, controller.Position.z);
-                Vector3 newPieceRotation = new Vector3(controller.Orientation.x, controller.Orientation.eulerAngles.y, controller.Orientation.eulerAngles.z);
-                Instantiate(TrackPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation));
+                Vector3 newPieceRotation = new Vector3(controller.Orientation.eulerAngles.x, controller.Orientation.eulerAngles.y, controller.Orientation.eulerAngles.z);
+                if (!StartPlaced)
+                {
+                    StartPoint = newPieceLocation;
+                    ballInstance = Instantiate(Ball, newPieceLocation, Quaternion.identity);
+                    StartPlaced = true;
+                    InfoText.text = "Set end point";
+                }
+                else if(!EndPlaced)
+                {
+                    EndPoint = newPieceLocation;
+                    Instantiate(EndModel, newPieceLocation, Quaternion.identity);
+                    EndPlaced = true;
+                    InfoText.text = "Place your track down, and press the bumper to start.";
+                    isReadyToStart = true;
+                }
+                else if(!Started)
+                {
+                    Instantiate(TrackPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation));
+                    
+                }
+                /*else //resets
+                {
+
+                    InfoText.text = "Place your track down, and press the bumper and trigger together to start.";
+                    Ball.useGravity = false;
+                    Ball.position = StartPoint;
+                    Started = false;
+                }*/
+
+
+
             }
         }
         #endregion

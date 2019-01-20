@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Goal
   - Ball
+  - Wall
+  - Boundary
+  - DroneText
   layers:
   - Default
   - TransparentFX

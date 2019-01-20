@@ -11,6 +11,8 @@
 // %BANNER_END%
 
 using System.Collections;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 
@@ -29,6 +31,9 @@ namespace MagicLeap
         private int _lastLEDindex = -1;
         [SerializeField] private bool isReadyToStart = false;
         private Rigidbody ballInstance;
+        private List<GameObject> spawnedPrefabs;
+        
+        private int spawnIndex = 0;
         
         #endregion
         #region Public Variables
@@ -43,6 +48,9 @@ namespace MagicLeap
         public TextMesh InfoText;
         public Vector3 ControllerLocation, ControllerRotation;
         public GameObject BoundaryObject;
+        public GameObject GameObjectManager;
+        public MLInputController PublicController;
+        public GameObject[] PrefabArray;
 
         
         #endregion
@@ -70,9 +78,10 @@ namespace MagicLeap
         /// </summary>
         void Start()
         {
-
+            spawnedPrefabs = new List<GameObject>();
             _controllerConnectionHandler = GetComponent<ControllerConnectionHandler>();
             controller = _controllerConnectionHandler.ConnectedController;
+            PublicController = controller;
 
             MLInput.OnControllerButtonUp += HandleOnButtonUp;
             MLInput.OnControllerButtonDown += HandleOnButtonDown;
@@ -85,7 +94,12 @@ namespace MagicLeap
         /// </summary>
         void Update()
         {
+            
+
             MLInputController controller = _controllerConnectionHandler.ConnectedController;
+            PublicController = controller;
+
+           
             ControllerLocation = new Vector3(controller.Position.x, controller.Position.y, controller.Position.z);
             ControllerRotation = new Vector3(controller.Orientation.eulerAngles.x, controller.Orientation.eulerAngles.y, controller.Orientation.eulerAngles.z);
             UpdateLED();
@@ -113,8 +127,10 @@ namespace MagicLeap
                     ghostObject.transform.rotation = Quaternion.Euler(ControllerRotation);
                 }
             }
-           
-            
+
+            DeleteObject();
+            //SwitchObject();
+
 
 
 
@@ -151,6 +167,7 @@ namespace MagicLeap
             }
 
             MLInputController controller = _controllerConnectionHandler.ConnectedController;
+            
             if (controller.Touch1Active)
             {
                 // Get angle of touchpad position.
@@ -220,9 +237,11 @@ namespace MagicLeap
 
                 if(!Started)
                 {
-                    ballInstance.constraints = RigidbodyConstraints.None;
+                    
                     Started = true;
+                    //ballInstance.GetComponent<Rigidbody>().velocity = Vector3.zero;
                     ballInstance.GetComponent<Rigidbody>().useGravity = true;
+                    ballInstance.constraints = RigidbodyConstraints.None;
                     InfoText.text = "Press Bumper to restart";
                 }
                 else
@@ -271,13 +290,19 @@ namespace MagicLeap
                     Instantiate(EndModel, newPieceLocation, Quaternion.identity);
                     EndPlaced = true;
                     
-                    InfoText.text = "Place your track down, and press the bumper to start.";
+                    InfoText.text = "Place your track down. Press down on the touchpad to delete last piece, and press the bumper to start.";
                     isReadyToStart = true;
                     BoundaryObject.GetComponent<BoundaryController>().encapsulateStartEnd(StartPoint, EndPoint);
+                    GameObjectManager.GetComponent<GameObjectManager>().instantiateGameObjects();
                 }
                 else if(!Started && !touchingObject)
                 {
-                    Instantiate(SelectedPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation));
+                    print(spawnIndex);
+                    spawnIndex++;
+                    print(spawnIndex);
+                    spawnedPrefabs.Add(Instantiate(SelectedPrefab, newPieceLocation, Quaternion.Euler(newPieceRotation)));
+
+                    
                     
                 }
                 
@@ -286,7 +311,67 @@ namespace MagicLeap
 
             }
         }
-        
+        /*void OnButtonUp(byte controller_id, MLInputControllerButton button)
+        {
+            MLInputController controller = _controllerConnectionHandler.ConnectedController;
+            if (button == MLInputControllerButton.HomeTap)
+            {
+                print("the home button was pressed");
+                if (spawnIndex >= 0)
+                {
+                    Destroy(spawnedPrefabs[spawnIndex]);
+                    spawnIndex--;
+                    
+                }
+                
+            }
+        }*/
+        private int heldDownTimeY;
+        void DeleteObject()
+        {
+            
+            if (PublicController.Touch1Active && PublicController.Touch1PosAndForce.y < 0)
+            {
+                heldDownTimeY++;
+                if (spawnIndex - 1 >= 0 && heldDownTimeY >= 100)
+                {
+                    GameObject.Destroy(spawnedPrefabs[spawnIndex - 1]);
+                    spawnedPrefabs.RemoveAt(spawnIndex - 1);
+                    print("SpawnIndex" + spawnIndex);
+                    spawnIndex--;
+                    print("SpawnIndex" + spawnIndex);
+                    heldDownTimeY = 0;
+                }
+            }
+        }
+        public GameObject[] TrackPieces;
+        public int TrackIndex;
+        private int heldDownTimeX;
+       /*void SwitchObject()
+        {
+
+            if ((PublicController.Touch1Active && PublicController.Touch1PosAndForce.x < 0))
+            {
+
+                if (TrackIndex - 1 >= 0 && heldDownTimeX >= 100)
+                {
+                    TrackIndex--;
+                    SelectedPrefab = TrackPieces[TrackIndex];
+                    
+                }
+            }
+            if ((PublicController.Touch1Active && PublicController.Touch1PosAndForce.x > 0))
+            {
+
+                if (TrackIndex - 1 <= TrackIndex && heldDownTimeX >= 100)
+                {
+                    TrackIndex++;
+                    SelectedPrefab = TrackPieces[TrackIndex];
+                    
+                }
+            }
+        }*/
+
         /*private void OnTriggerEnter(Collider other)
         {
             MLInputController controller = _controllerConnectionHandler.ConnectedController;

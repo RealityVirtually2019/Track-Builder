@@ -2,30 +2,44 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "d54fe6764f851fab2b52e6eb284e1fada063387e",
+   "hash": "a2766d0bb968eb6f5a5941ba9c30d0d9dac75046",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
   },
   {
    "compression": 8,
-   "hash": "3b01a822521f711a61f308030f2ddf75348fc2ca",
+   "hash": "17d787f4c3a7f3c7a666506dd16dc0c4bed73fb9",
    "pkgpath": "Data/11f6907d8a36142499cc0757c2dfe41f",
-   "size": 87736,
+   "size": 87980,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/11f6907d8a36142499cc0757c2dfe41f"
   },
   {
    "compression": 8,
-   "hash": "5a73b8d0ceefde343c8d33cd908147b862eb2bff",
+   "hash": "9f67046d548e5000d92c8537a1d935ba2826eebb",
+   "pkgpath": "Data/20d985ae6cc1f4cf9954981b37c6292d",
+   "size": 726328,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/20d985ae6cc1f4cf9954981b37c6292d"
+  },
+  {
+   "compression": 8,
+   "hash": "7bdc8d0610f4974d8ac6ef9eb385b34fd3968a06",
+   "pkgpath": "Data/573085c28cf334c4f9f4f25111fbe5e6",
+   "size": 6388,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/573085c28cf334c4f9f4f25111fbe5e6"
+  },
+  {
+   "compression": 8,
+   "hash": "3f3c722f5168a8a9848445989b3ee8f263e17a15",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 2787680,
+   "size": 2790800,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "e9bf854e1ff75ae462b130fdaf29259dfced166e",
+   "hash": "4dffee6366c385cbf80f47b574f97bbb4f4dc99c",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 34022608,
+   "size": 34040312,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -36,9 +50,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "12d6c2ee61d15b77df64e8e8489a93ece61c71fa",
+   "xfrm_hash": "85b3697055e36dda7d5f4af1e4d5e7e18c990496",
    "xfrm_path": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-728d883cef4e4fdb\\libil2cpp.so-8d566d35471cd15e",
-   "xfrm_size": 34023366
+   "xfrm_size": 34041070
   },
   {
    "compression": 8,
@@ -167,6 +181,13 @@
   },
   {
    "compression": 8,
+   "hash": "4c0783ae4a12c915a3ba529c0f83ecf06e1e2776",
+   "pkgpath": "Data/b62867e3fa161440c885300e092be939",
+   "size": 12220,
+   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/b62867e3fa161440c885300e092be939"
+  },
+  {
+   "compression": 8,
    "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
    "pkgpath": "Data/boot.config",
    "size": 76,
@@ -174,37 +195,30 @@
   },
   {
    "compression": 8,
-   "hash": "fd9fa6553c22180d72232bcee5bf683ac2433505",
+   "hash": "cb346f753a4accd365f82c90ef65845615c629be",
    "pkgpath": "Data/c96aa162a47b2483ab23dcae4c6e59b5",
-   "size": 2510656,
+   "size": 2510328,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/c96aa162a47b2483ab23dcae4c6e59b5"
   },
   {
    "compression": 8,
-   "hash": "cfdc42c6f956be5df68809f06d0b1a0e7f7fb808",
-   "pkgpath": "Data/d29259c22ebfb48cb96d724792707c18",
-   "size": 4452,
-   "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/d29259c22ebfb48cb96d724792707c18"
-  },
-  {
-   "compression": 8,
-   "hash": "c1dd1ed4a002d24c7410cd1e69b2c8f5ea6ce876",
+   "hash": "851adec9cd20f229786b0fe20ffb8dbd4ddb5005",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 123524,
+   "size": 133908,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "1054c07f6f247ec5f08bb560af8a6f3e09bcf011",
+   "hash": "2dbad87e693ca32800f1f56971bc352707089d88",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 36864,
+   "size": 37112,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "21531ddf7e5f9d69e428eecbef87356ac2dd69da",
+   "hash": "37b6330f98556ce52d98bc078dd767b7f5656059",
    "pkgpath": "Data/level0",
-   "size": 16680,
+   "size": 16512,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/level0"
   },
   {
@@ -216,9 +230,9 @@
   },
   {
    "compression": 8,
-   "hash": "e90c2d9685591107686dcbd58fe67fe990b17fbb",
+   "hash": "2f34ead8246eb77e1b1a90d966fc026cf91202ee",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 1283872,
+   "size": 1286488,
    "src": "C:/Users/rsilv/Documents/UnityBootcamp/Track Builder/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {

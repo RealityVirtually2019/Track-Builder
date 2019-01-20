@@ -11,6 +11,10 @@ public class BoundaryController : MonoBehaviour
     private float MINIMUM_HEIGHT_PRESET = 1f;
     private float minimumHeight = .2f;
     private float minimumWidth;
+
+    public float mAngle1;
+    public float mAngle2;
+    public Quaternion boundaryQuat = new Quaternion();
     public Vector3 boxColliderScale = new Vector3();
 
     // Use this for initialization
@@ -53,7 +57,7 @@ public class BoundaryController : MonoBehaviour
             newYScale = Mathf.Abs(vecBetween.y * 1.2f);
         }
 
-        print(vecBetween.y);
+        //print(vecBetween.y);
 
         var tmp = new Vector2(vecBetween.x, vecBetween.z);
         float newZScale = Mathf.Abs(tmp.magnitude * 1.2f);
@@ -66,13 +70,19 @@ public class BoundaryController : MonoBehaviour
         float angle2 = Mathf.Atan2(vecBetween.x, vecBetween.z) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle2, Vector3.up);
 
+        boundaryQuat.x = angle1;
+        boundaryQuat.y = angle2;
+
+        mAngle1 = angle1;
+        mAngle2 = angle2;
+
         Vector3 midpoint = startPoint + (startPoint - endPoint) / 2f;
 
         Vector3 midpointAtoB = new Vector3((startPoint.x + endPoint.x) / 2.0f, (startPoint.y + endPoint.y) / 2.0f, (startPoint.z + endPoint.z) / 2.0f); // midpoint between A B
 
         transform.position = midpointAtoB;
 
-        print(midpoint);
+        //print(midpoint);
         boxCollider.size = new Vector3(newXScale, newYScale, newZScale);
         boxColliderScale = boxCollider.size;
         float newXPosition = boxCollider.transform.position.x;
